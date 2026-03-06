@@ -25,3 +25,5 @@ jobs:
 
       - name: Print Runner OS
         run: uname -a
+      - name: Fail Step
+        run: exit 1
